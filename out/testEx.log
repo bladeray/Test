@@ -1,0 +1,75 @@
+2020-04-05 15:58:38 INFO  BaseTest:50 -    ################# START TEST newUser #################
+2020-04-05 15:58:38 INFO  BaseTest:53 -     TEST DESCRIPTION:    Registration with incorrect data. 
+2020-04-05 15:58:38 INFO  BaseTest:53 -     TEST DESCRIPTION:    Registration with correct data. 
+2020-04-05 15:58:38 INFO  BaseTest:53 -     TEST DESCRIPTION:    Authorization with correct data.
+2020-04-05 15:58:38 INFO  BaseTest:58 - @@@@ TEST STEP @@@@: Open Registration page.
+2020-04-05 15:58:38 INFO  LoginPage:25 - Open Login page.
+2020-04-05 15:58:39 INFO  LoginPage:49 - Open Registration page.
+2020-04-05 15:58:39 INFO  BaseTest:58 - @@@@ TEST STEP @@@@: Verify that Registration page has opened. Enter incorrect registration data and click on Register button. Verify that errors have appeared.
+2020-04-05 15:58:39 INFO  RegistrationPage:75 - Check that Registration page was opened.
+2020-04-05 15:58:40 INFO  RegistrationPage:27 - Enter in the Login field: "1586087920109"
+2020-04-05 15:58:40 INFO  RegistrationPage:33 - Enter in the Email field: "com"
+2020-04-05 15:58:40 INFO  RegistrationPage:39 - Enter in the Password field: "123456"
+2020-04-05 15:58:40 INFO  RegistrationPage:45 - Enter in the Confirm password field: "12345"
+2020-04-05 15:58:40 INFO  RegistrationPage:69 - Click on Register button.
+2020-04-05 15:58:40 INFO  RegistrationPage:57 - Check that the registration was a failure.
+2020-04-05 15:58:40 INFO  BaseTest:58 - @@@@ TEST STEP @@@@: Enter correct registration data and click on Register button. Verify that success page appeared.
+2020-04-05 15:58:40 INFO  RegistrationPage:27 - Enter in the Login field: "1586087918835"
+2020-04-05 15:58:41 INFO  RegistrationPage:33 - Enter in the Email field: "test@test.com"
+2020-04-05 15:58:41 INFO  RegistrationPage:39 - Enter in the Password field: "12345678"
+2020-04-05 15:58:41 INFO  RegistrationPage:45 - Enter in the Confirm password field: "12345678"
+2020-04-05 15:58:41 INFO  RegistrationPage:69 - Click on Register button.
+2020-04-05 15:58:41 INFO  RegistrationPage:51 - Check that the registration was a success.
+2020-04-05 15:58:41 INFO  BaseTest:58 - @@@@ TEST STEP @@@@: Open Login page. Enter correct new authorization data and click on Login button. Verify that success page appeared.
+2020-04-05 15:58:41 INFO  RegistrationPage:63 - Open Login page from Success registration page.
+2020-04-05 15:58:42 INFO  LoginPage:25 - Open Login page.
+2020-04-05 15:58:42 INFO  LoginPage:31 - Enter in the Login field: "1586087918835"
+2020-04-05 15:58:42 INFO  LoginPage:37 - Enter in the Password field: "12345678"
+2020-04-05 15:58:42 INFO  LoginPage:43 - Click on Login button.
+2020-04-05 15:58:42 INFO  LoginPage:55 - Check that the authorization was a success.
+2020-04-05 15:58:42 INFO  BaseTest:44 -    ################# END TEST newUser ################# 
+
+
+
+2020-04-05 15:58:48 INFO  BaseTest:50 -    ################# START TEST oldUser #################
+2020-04-05 15:58:48 INFO  BaseTest:53 -     TEST DESCRIPTION:    Authorization with incorrect data. 
+2020-04-05 15:58:48 INFO  BaseTest:53 -     TEST DESCRIPTION:    Authorization with correct data.
+2020-04-05 15:58:48 INFO  BaseTest:58 - @@@@ TEST STEP @@@@: Open Login page. Enter incorrect Login and Password and click on Login button. Verify that errors have appeared.
+2020-04-05 15:58:48 INFO  LoginPage:25 - Open Login page.
+2020-04-05 15:58:49 INFO  LoginPage:31 - Enter in the Login field: "raycut"
+2020-04-05 15:58:49 INFO  LoginPage:37 - Enter in the Password field: "1586087929393"
+2020-04-05 15:58:49 INFO  LoginPage:43 - Click on Login button.
+2020-04-05 15:58:49 INFO  LoginPage:61 - Check that the authorization was a failure.
+2020-04-05 15:58:49 INFO  BaseTest:58 - @@@@ TEST STEP @@@@: Enter correct Login and Password and click on Login button. Verify that success page appeared.
+2020-04-05 15:58:49 INFO  LoginPage:31 - Enter in the Login field: "raycut"
+2020-04-05 15:58:49 INFO  LoginPage:37 - Enter in the Password field: "12345678"
+2020-04-05 15:58:50 INFO  LoginPage:43 - Click on Login button.
+2020-04-05 15:58:50 INFO  LoginPage:55 - Check that the authorization was a success.
+2020-04-05 15:58:50 INFO  BaseTest:44 -    ################# END TEST oldUser ################# 
+
+
+
+2020-04-05 16:00:29 INFO  BaseTest:50 -    ################# START TEST oldUser #################
+2020-04-05 16:00:29 INFO  BaseTest:53 -     TEST DESCRIPTION:    Authorization with incorrect data. 
+2020-04-05 16:00:29 INFO  BaseTest:53 -     TEST DESCRIPTION:    Authorization with correct data.
+2020-04-05 16:00:29 INFO  BaseTest:58 - @@@@ TEST STEP @@@@: Open Login page. Enter incorrect Login and Password and click on Login button. Verify that errors have appeared.
+2020-04-05 16:00:29 INFO  LoginPage:25 - Open Login page.
+2020-04-05 16:00:29 INFO  LoginPage:31 - Enter in the Login field: "raycut"
+2020-04-05 16:00:29 INFO  LoginPage:37 - Enter in the Password field: "1586088029971"
+2020-04-05 16:00:30 INFO  LoginPage:43 - Click on Login button.
+2020-04-05 16:00:30 INFO  LoginPage:61 - Check that the authorization was a failure.
+2020-04-05 16:00:30 INFO  BaseTest:58 - @@@@ TEST STEP @@@@: Enter correct Login and Password and click on Login button. Verify that success page appeared.
+2020-04-05 16:00:30 INFO  LoginPage:31 - Enter in the Login field: "raycut"
+2020-04-05 16:00:30 INFO  LoginPage:37 - Enter in the Password field: "12345678"
+2020-04-05 16:00:30 INFO  LoginPage:55 - Check that the authorization was a success.
+2020-04-05 16:00:45 ERROR BasePage:34 - Timeout for visibility of element with locator By.xpath: //span[text()='Successfully authorized!']
+Expected condition failed: waiting for visibility of all elements located by By.xpath: //span[text()='Successfully authorized!'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'EUGENE_PC', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\raycu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53778}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7356cad3dad75c971132170b79e445f6
+2020-04-05 16:00:45 INFO  BaseTest:44 -    ################# END TEST oldUser ################# 
+
+
+
