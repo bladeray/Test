@@ -41,7 +41,7 @@ public class BasePage {
         try {
             Assert.assertTrue(driver.findElement(elementBy).isDisplayed());
         } catch (Exception e) {
-            String eMes = "Element with locator " + elementBy + " is not displayed";
+            String eMes = "Element with locator " + elementBy + " is not displayed.";
             log.error(eMes + "\n" + e.getMessage());
             throw new RuntimeException(eMes);
         }
