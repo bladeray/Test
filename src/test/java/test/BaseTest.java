@@ -1,7 +1,6 @@
 package test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import javafx.util.Pair;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -26,7 +25,8 @@ public class BaseTest {
     private final static Logger log = Logger.getLogger(BaseTest.class);
 
     private String currentTestMethodName;
-    final protected Pair<String, String> correctData = new Pair<>("raycut", "12345678");
+    final protected String correctLogin = "raycut";
+    final protected String correctPassword = "12345678";
 
     @BeforeMethod
     public void setup() {

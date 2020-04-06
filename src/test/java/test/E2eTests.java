@@ -15,14 +15,14 @@ public class E2eTests extends BaseTest {
 
         printStep("Open Login page. Enter incorrect Login and Password and click on Login button. Verify that errors have appeared.");
         loginPage.goTo()
-                .fillInLogin(correctData.getKey())
+                .fillInLogin(correctLogin)
                 .fillInPassword(String.valueOf(new Date().getTime()))
                 .clickLoginButton()
                 .isLoginIncorrect();
 
         printStep("Enter correct Login and Password and click on Login button. Verify that success page appeared.");
-        loginPage.fillInLogin(correctData.getKey())
-                .fillInPassword(correctData.getValue())
+        loginPage.fillInLogin(correctLogin)
+                .fillInPassword(correctPassword)
                 .clickLoginButton()
                 .isLoginCorrect();
     }
@@ -51,8 +51,8 @@ public class E2eTests extends BaseTest {
         printStep("Enter correct registration data and click on Register button. Verify that success page appeared.");
         registrationPage.fillInLogin(correctNewLogin)
                 .fillInEmail("test@test.com")
-                .fillInPassword(correctData.getValue())
-                .fillInPasswordConfirm(correctData.getValue())
+                .fillInPassword(correctPassword)
+                .fillInPasswordConfirm(correctPassword)
                 .clickRegistrationButton()
                 .isRegistrationCorrect();
 
@@ -61,7 +61,7 @@ public class E2eTests extends BaseTest {
 
         loginPage.goTo()
                 .fillInLogin(correctNewLogin)
-                .fillInPassword(correctData.getValue())
+                .fillInPassword(correctPassword)
                 .clickLoginButton()
                 .isLoginCorrect();
     }
